@@ -12,7 +12,7 @@ def generate_launch_description():
  
   # Constants for paths to different files and folders
   gazebo_models_path = 'models'
-  package_name = 'bot'
+  package_name = 'bocce_bot'
   robot_name_in_model = 'bot'
   rviz_config_file_path = 'config/view_bot.rviz'
   urdf_file_path = 'description/robot.urdf.xacro'

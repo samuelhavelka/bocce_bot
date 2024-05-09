@@ -13,7 +13,7 @@ def generate_launch_description():
   pkg_gazebo_ros = FindPackageShare(package='gazebo_ros').find('gazebo_ros')   
 
   # Set the path to this package.
-  pkg_share = FindPackageShare(package='bot').find('bot')
+  pkg_share = FindPackageShare(package='bocce_bot').find('bocce_bot')
  
   # Set the path to the world file
   world_file_name = 'empty.world'
